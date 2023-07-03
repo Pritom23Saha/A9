@@ -1,0 +1,230 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.body{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Code Pro', monospace;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*global style for heading title start */
+.title{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+.title h4{
+	font-size: 18px;
+	line-height: 1.2em;
+	font-width: 600;
+	color: #008ed6;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.title h1{
+	font-size: 42px;
+	line-height: 1.2em;
+	font-width: 600;
+	color: #000;
+	margin: 15px 0px 20px;
+}
+
+/*global style for heading title end */
+
+
+
+.header{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.header .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 30px;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+	background: url("../images/line.png") bottom center no-repeat;
+	background-size: auto;
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+	background: url("../images/line.png") bottom center no-repeat;
+	background-size: auto;
+}
+.header .navbar-nav .nav-item .active{
+	background: url("../images/line.png") bottom center no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 150px 0px;
+}
+.banner h4{
+	font-size: 18px;
+	line-height: 1.2em;
+	font-width: 600;
+	color: #008ed6;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.banner h1{
+	font-size: 42px;
+	line-height: 1.2em;
+	font-width: 600;
+	color: #fff;
+	margin: 15px 0px;
+}
+.banner p{
+	font-size: 16px;
+	line-height: 1.7em;
+	font-width: 400;
+	color: #7f7f7f;
+}
+.banner .double-btn{
+	width: 100%;
+	padding: 30px 0px 0px;
+
+}
+.banner .double-btn .btn-primary{
+	padding: 15px 25px;
+	border-radius: 2px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-width: 600;
+	letter-spacing: 1px;
+	border: 1px solid #008ed6;
+	background: #008ed6;
+	color: #fff;
+	transition: 1s;
+	margin: 0px 20px 0px 0px;
+}
+.banner .double-btn .btn-primary:hover{
+	border: 1px solid #008ed6;
+	background: transparent;
+	color: #008ed6;
+}
+.banner .double-btn .btn-primary:focus{
+	border: 1px solid #008ed6;
+	background: transparent;
+	color: #008ed6;
+}
+.banner .double-btn .btn-light{
+	padding: 15px 25px;
+	border-radius: 2px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-width: 600;
+	letter-spacing: 1px;
+	border: 1px solid #7f7f7f;
+	background: transparent;
+	color: #fff;
+	transition: 1s;
+}
+.banner .double-btn .btn-light:hover{
+	border: 1px solid #008ed6;
+	background: #008ed6;
+	color: #fff;
+}
+.banner .double-btn .btn-light:focus{
+	border: 1px solid #008ed6;
+	background: #008ed6;
+	color: #fff;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .title{
+	text-align: center;
+}
+.icon-box{
+	width: 100%;
+	padding: 40px 50px;
+	text-align: center;
+}
+.icon-box .icon{
+	width: 110px;
+	height: 110px;
+	line-height: 120px;
+	border-radius: 100%;
+	margin: 0px auto 20px;
+	border: 1px solid #eee;
+}
+.icon-box .icon .fa{
+	font-size: 35px;
+	color: #008ed6;
+}
+.icon-box h4{
+	font-size: 24px;
+	line-height: 1.2em;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0px 0px 10px;
+}
+.icon-box p{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-weight: 400;
+	color: #999999;
+}
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.about-long .title{
+	padding: 45px 0px 20px;
+}
+.about-long .title h1{
+	font-size: 42px;
+}
+.about-long p{
+	width: 62%;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #999;
+}
+.about-long ul{
+	display: block;
+	padding: 10px 0px;
+}
+.about-long ul li{
+	list-style: none;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.7em;
+	margin: 0px 0px 15px;
+}
+.about-long ul li img{
+	width: 14px;
+	height: 16px;
+	margin: 0px 10px 0px 0px;
+}
+.about-sort{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+.about-sort .title{
+	padding: 90px 0px 20px;
+}
+.about-sort .title h1{
+	font-size: 38px;	
+}
+.about-sort p{
+	width: 70%;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #999;	
+}
